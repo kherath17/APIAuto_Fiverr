@@ -1,0 +1,13 @@
+userOnboarding\removePhotoURL.class
+userOnboarding\deleteUser.class
+userOnboarding\updatePhoneNumber.class
+userOnboarding\fireBaseAccessToken.class
+userOnboarding\createUser.class
+userOnboarding\updateEmail.class
+userOnboarding\updateVerify.class
+userOnboarding\resendEmailVerification.class
+userOnboarding\verifyEmail.class
+userOnboarding\getCurrentUser.class
+userOnboarding\verifyPhoneNum.class
+userOnboarding\updateUserProfile.class
+testAPIs.class

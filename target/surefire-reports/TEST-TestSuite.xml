@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="25.667" tests="21" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI\target\test-classes;C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI\target\classes;C:\Users\E-LINE\.m2\repository\io\rest-assured\rest-assured\5.0.1\rest-assured-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\E-LINE\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\E-LINE\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\E-LINE\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\E-LINE\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\json-path\5.0.1\json-path-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\rest-assured-common\5.0.1\rest-assured-common-5.0.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\xml-path\5.0.1\xml-path-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\E-LINE\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\E-LINE\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\E-LINE\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\E-LINE\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\E-LINE\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\E-LINE\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\E-LINE\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\E-LINE\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Colombo"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JavaU\jdk-11.0.13\bin"/>
+    <property name="sun.java.command" value="C:\Users\E-LINE\AppData\Local\Temp\surefire16452275792508740678\surefirebooter213278648566611347.jar C:\Users\E-LINE\AppData\Local\Temp\surefire16452275792508740678 2022-06-29T15-06-34_884-jvmRun1 surefire3298023711637911174tmp surefire_014160138512719455394tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI\target\test-classes;C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI\target\classes;C:\Users\E-LINE\.m2\repository\io\rest-assured\rest-assured\5.0.1\rest-assured-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\E-LINE\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\E-LINE\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\E-LINE\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\E-LINE\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\E-LINE\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\json-path\5.0.1\json-path-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\rest-assured-common\5.0.1\rest-assured-common-5.0.1.jar;C:\Users\E-LINE\.m2\repository\io\rest-assured\xml-path\5.0.1\xml-path-5.0.1.jar;C:\Users\E-LINE\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\E-LINE\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\E-LINE\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\E-LINE\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\E-LINE\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\E-LINE\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\E-LINE\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\E-LINE\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\E-LINE\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\E-LINE\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-testng\2.18.1\allure-testng-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-java-commons\2.18.1\allure-java-commons-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-model\2.18.1\allure-model-2.18.1.jar;C:\Users\E-LINE\.m2\repository\io\qameta\allure\allure-test-filter\2.18.1\allure-test-filter-2.18.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\E-LINE"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\JavaU\jdk-11.0.13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\E-LINE\AppData\Local\Temp\surefire16452275792508740678\surefirebooter213278648566611347.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
+    <property name="user.name" value="Eshan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\E-LINE\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\E-LINE\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\E-LINE\Desktop\Fiverrr\halsaBabyAPI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\JavaU\jdk-11.0.13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\Git\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.4\bin;C:\Program Files\JavaU\jdk-11.0.13\bin;F:\nodejs\;C:\New folder;C:\Users\E-LINE\AppData\Local\Programs\Python\Python310;C:\Program Files\k6\;C:\Program Files\k6;F:\Appium\AndroidSDK\platform-tools;F:\Allure\allure-2.18.1\bin;C:\Users\E-LINE\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\E-LINE\AppData\Local\Programs\Python\Python310\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\E-LINE\AppData\Local\Microsoft\WindowsApps;C:\Users\E-LINE\.dotnet\tools;F:\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\E-LINE\AppData\Roaming\npm;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="verifyPhoneNum" classname="userOnboarding.verifyPhoneNum" time="2.512">
+    <system-out><![CDATA[Status code is 200
+Actual Response Time is 1 seconds 772 Milliseconds 
+true
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPhoneNum_Negative" classname="userOnboarding.verifyPhoneNum" time="1.552">
+    <system-out><![CDATA[Status code is 404
+Actual Response Time is 1 seconds 204 Milliseconds 
+{
+    "timestamp": "2022-06-29T09:36:39.440+0000",
+    "status": 404,
+    "error": "Not Found",
+    "message": "No message available",
+    "path": "/mobile-backend/api/verifyy/%2B94771119706"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUser" classname="userOnboarding.createUser" time="1.677">
+    <failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at userOnboarding.createUser.createUser(createUser.java:45)
+]]></failure>
+    <system-out><![CDATA[Actual Response Time is 1 seconds 653 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:41.444+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "User with the externalId already exists",
+    "path": "/mobile-backend/api/user"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUser_Negative" classname="userOnboarding.createUser" time="1.023">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 8 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:42.478+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "User with the externalId already exists",
+    "path": "/mobile-backend/api/user"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="generateToken" classname="userOnboarding.verifyEmail" time="0.803">
+    <system-out><![CDATA[eyJhbGciOiJSUzI1NiIsImtpZCI6Ijk4OTdjZjk0NTllMjU0ZmYxYzY3YTRlYjZlZmVhNTJmMjFhOWJhMTQiLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiTmFtZTEiLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc3RsLXVhdC1oYWxzYWJhYnkiLCJhdWQiOiJzdGwtdWF0LWhhbHNhYmFieSIsImF1dGhfdGltZSI6MTY1NjQ5NTQwMywidXNlcl9pZCI6IkF5WnRHTnE5YnZZbjM0cWJFWkJWdHl1RGVqSzIiLCJzdWIiOiJBeVp0R05xOWJ2WW4zNHFiRVpCVnR5dURlaksyIiwiaWF0IjoxNjU2NDk1NDAzLCJleHAiOjE2NTY0OTkwMDMsImVtYWlsIjoic2hqZXdAZ21haWwzLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV9udW1iZXIiOiIrOTQ3MTg3MjI4MTIiLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7InBob25lIjpbIis5NDcxODcyMjgxMiJdLCJlbWFpbCI6WyJzaGpld0BnbWFpbDMuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoicGFzc3dvcmQifX0.ZUGr1qqR1euHPx9-yWhzykTORZnQekW9tAlUZFSoSq9ROPEHFM7Gnk7Ln_GD9qTl2ilSlTNHbQcF2ZZQlPfU7nty0RZA2dGEWvXvA8Jg_FXnGYW43p-l-9iRXjmwJ2diHMOa0-NkluoLd8fpWVScgr-RUGPneYbz5FZJEEYrUDoSspPDlcQKZPZz0kOT5xsqavDsrmNzBTzUzfjl7lCoPe2kpK_ndpaOo-4haeZUEJKzPtjIT3Hy3_fkVLnl9GJ4LlfgGW3_7ELk5SMjrE_Dw1tIhZIAhE6GYvNKi6-i7oMMN_WX0hL6ErUw4D1GTxJvBvD-x9VfUHSxbpWk6BdiSQ
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEmail" classname="userOnboarding.verifyEmail" time="1.999">
+    <system-out><![CDATA[
+Actual Response Time is 1 seconds 991 Milliseconds 
+Status code is 200
+]]></system-out>
+  </testcase>
+  <testcase name="verifyEmail_Negative" classname="userOnboarding.verifyEmail" time="1.004">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 990 Milliseconds 
+Status code is 429
+{
+    "timestamp": "2022-06-29T09:36:46.280+0000",
+    "status": 429,
+    "error": "Too Many Requests",
+    "message": "Too many attempts. Try later",
+    "path": "/mobile-backend/api/user/verify/email"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateVerify" classname="userOnboarding.updateVerify" time="1.06">
+    <failure message="expected [{&#10;    &quot;timestamp&quot;: &quot;2022-06-29T09:36:47.334+0000&quot;,&#10;    &quot;status&quot;: 400,&#10;    &quot;error&quot;: &quot;Bad Request&quot;,&#10;    &quot;message&quot;: &quot;IsVerified message for this user is already updated&quot;,&#10;    &quot;path&quot;: &quot;/mobile-backend/api/user/update/is-verified&quot;&#10;}] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+expected [{
+    "timestamp": "2022-06-29T09:36:47.334+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}] but found [true]
+	at userOnboarding.updateVerify.updateVerify(updateVerify.java:35)
+]]></failure>
+    <system-out><![CDATA[Actual Response Time is 1 seconds 41 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:47.334+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateVerify_Negative" classname="userOnboarding.updateVerify" time="1.068">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 54 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:48.392+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserPro" classname="userOnboarding.updateUserProfile" time="1.142">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 125 Milliseconds 
+Status code is 200
+{
+    "userId": "5248c518-9fac-414a-b24d-c65d44ad4fc3",
+    "email": "shjew@gmail3.com",
+    "phone": "+94778225128",
+    "photoUrl": "http://hjdw.chje.com",
+    "firstName": "Name1",
+    "lastName": "Name23",
+    "birthday": "13/10/1990",
+    "externalId": "AyZtGNq9bvYn34qbEZBVtyuDejK2",
+    "isVerified": true,
+    "isAgreedTerms": false,
+    "isNotificationOn": true,
+    "isChildAdded": false,
+    "activeUserInfantRelationshipCount": 0,
+    "isWarnEmailSent": false,
+    "warnDate": "27/07/2022",
+    "deleteDate": "26/08/2022",
+    "stripeCustomerId": null,
+    "payPalCustomerId": null,
+    "userInfants": [
+        
+    ],
+    "blacode": null,
+    "blamemberId": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserPro_Negative" classname="userOnboarding.updateUserProfile" time="0.934">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 919 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:50.461+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "Missing authorization bearer",
+    "path": "/mobile-backend/api/user/update/profile"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="removePhoto" classname="userOnboarding.removePhotoURL" time="0.927">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 920 Milliseconds 
+Status code is 200
+true
+]]></system-out>
+  </testcase>
+  <testcase name="removePhoto_Negative" classname="userOnboarding.removePhotoURL" time="0.927">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 916 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:52.340+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "The photo url is already removed",
+    "path": "/mobile-backend/api/user/remove/photourl"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updatePhone" classname="userOnboarding.updatePhoneNumber" time="1.071">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 55 Milliseconds 
+Status code is 200
+{
+    "userId": "5248c518-9fac-414a-b24d-c65d44ad4fc3",
+    "email": "shjew@gmail3.com",
+    "phone": "+94778225125",
+    "photoUrl": null,
+    "firstName": "Name1",
+    "lastName": "Name23",
+    "birthday": "13/10/1990",
+    "externalId": "AyZtGNq9bvYn34qbEZBVtyuDejK2",
+    "isVerified": true,
+    "isAgreedTerms": false,
+    "isNotificationOn": true,
+    "isChildAdded": false,
+    "activeUserInfantRelationshipCount": 0,
+    "isWarnEmailSent": false,
+    "warnDate": "27/07/2022",
+    "deleteDate": "26/08/2022",
+    "stripeCustomerId": null,
+    "payPalCustomerId": null,
+    "userInfants": [
+        
+    ],
+    "blacode": null,
+    "blamemberId": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updatePhone_Negative" classname="userOnboarding.updatePhoneNumber" time="0.987">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 972 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:54.391+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "The number : +94778225125 is already existing in the system",
+    "path": "/mobile-backend/api/user/update/phone"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateEmail" classname="userOnboarding.updateEmail" time="1.425">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 406 Milliseconds 
+Status code is 200
+{
+    "userId": "5248c518-9fac-414a-b24d-c65d44ad4fc3",
+    "email": "shjew@gmail2.com",
+    "phone": "+94778225125",
+    "photoUrl": null,
+    "firstName": "Name1",
+    "lastName": "Name23",
+    "birthday": "13/10/1990",
+    "externalId": "AyZtGNq9bvYn34qbEZBVtyuDejK2",
+    "isVerified": true,
+    "isAgreedTerms": false,
+    "isNotificationOn": true,
+    "isChildAdded": false,
+    "activeUserInfantRelationshipCount": 0,
+    "isWarnEmailSent": false,
+    "warnDate": "27/07/2022",
+    "deleteDate": "26/08/2022",
+    "stripeCustomerId": null,
+    "payPalCustomerId": null,
+    "userInfants": [
+        
+    ],
+    "blacode": null,
+    "blamemberId": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateEmail_Negative" classname="userOnboarding.updateEmail" time="0.948">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 926 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:56.758+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "The email shjew@gmail2.com is already existing in the system",
+    "path": "/mobile-backend/api/user/update/email"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="resendEmailVer" classname="userOnboarding.resendEmailVerification" time="0.947">
+    <failure message="expected [200] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [400]
+	at userOnboarding.resendEmailVerification.resendEmailVer(resendEmailVerification.java:36)
+]]></failure>
+    <system-out><![CDATA[Actual Response Time is 0 seconds 933 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:57.711+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "This email is already verified",
+    "path": "/mobile-backend/api/user/resend/email"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="resendEmailVer_Negative" classname="userOnboarding.resendEmailVerification" time="0.92">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 905 Milliseconds 
+Status code is 400
+{
+    "timestamp": "2022-06-29T09:36:58.637+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "This email is already verified",
+    "path": "/mobile-backend/api/user/resend/email"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getCurrentUser" classname="userOnboarding.getCurrentUser" time="0.91">
+    <system-out><![CDATA[Actual Response Time is 0 seconds 896 Milliseconds 
+Status code is 200
+{
+    "userId": "5248c518-9fac-414a-b24d-c65d44ad4fc3",
+    "email": "shjew@gmail2.com",
+    "phone": "+94778225125",
+    "photoUrl": null,
+    "firstName": "Name1",
+    "lastName": "Name23",
+    "birthday": "13/10/1990",
+    "externalId": "AyZtGNq9bvYn34qbEZBVtyuDejK2",
+    "isVerified": true,
+    "isAgreedTerms": false,
+    "isNotificationOn": true,
+    "isChildAdded": false,
+    "activeUserInfantRelationshipCount": 0,
+    "isWarnEmailSent": false,
+    "warnDate": "27/07/2022",
+    "deleteDate": "26/08/2022",
+    "stripeCustomerId": null,
+    "payPalCustomerId": null,
+    "userInfants": [
+        
+    ],
+    "blacode": null,
+    "blamemberId": null
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getCurrentUser_Negative" classname="userOnboarding.getCurrentUser" time="1.197">
+    <system-out><![CDATA[Actual Response Time is 1 seconds 186 Milliseconds 
+Status code is 404
+{
+    "timestamp": "2022-06-29T09:37:00.748+0000",
+    "status": 404,
+    "error": "Not Found",
+    "message": "No message available",
+    "path": "/mobile-backend/api/user/currentt"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

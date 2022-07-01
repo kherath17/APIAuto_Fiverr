@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/E-LINE/Desktop/Fiverrr/halsaBabyAPI/src/test/java/userOnboarding">
+        <classes>
+            <class name="userOnboarding.verifyPhoneNum"></class>
+            <class name="userOnboarding.createUser"></class>
+            <class name="userOnboarding.verifyEmail"></class>
+            <class name="userOnboarding.updateVerify"></class>
+            <class name="userOnboarding.updateUserProfile"></class>
+            <class name="userOnboarding.removePhotoURL"></class>
+            <class name="userOnboarding.updatePhoneNumber"></class>
+            <class name="userOnboarding.updateEmail"></class>
+            <class name="userOnboarding.resendEmailVerification"></class>
+            <class name="userOnboarding.getCurrentUser"></class>
+            <!--class name="userOnboarding.deleteUser"></class-->
+        </classes>
+    </test>
+</suite>

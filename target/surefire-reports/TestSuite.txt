@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 25.667 s <<< FAILURE! - in TestSuite
+userOnboarding.createUser.createUser  Time elapsed: 1.677 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at userOnboarding.createUser.createUser(createUser.java:45)
+
+userOnboarding.updateVerify.updateVerify  Time elapsed: 1.06 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [{
+    "timestamp": "2022-06-29T09:36:47.334+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}] but found [true]
+	at userOnboarding.updateVerify.updateVerify(updateVerify.java:35)
+
+userOnboarding.resendEmailVerification.resendEmailVer  Time elapsed: 0.947 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at userOnboarding.resendEmailVerification.resendEmailVer(resendEmailVerification.java:36)
+

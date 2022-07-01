@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="16" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-29T20:50:49 IST" name="All Test Suite" finished-at="2022-06-29T20:51:21 IST" duration-ms="31527">
+    <groups>
+    </groups>
+    <test started-at="2022-06-29T20:50:49 IST" name="C:/Users/E-LINE/Desktop/Fiverrr/halsaBabyAPI/src/test/java/userOnboarding" finished-at="2022-06-29T20:51:21 IST" duration-ms="31527">
+      <class name="userOnboarding.updatePhoneNumber">
+        <test-method signature="updatePhone()[pri:0, instance:userOnboarding.updatePhoneNumber@6a4f1a55]" started-at="2022-06-29T20:51:10 IST" name="updatePhone" finished-at="2022-06-29T20:51:12 IST" duration-ms="2413" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at userOnboarding.updatePhoneNumber.updatePhone(updatePhoneNumber.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePhone -->
+        <test-method signature="updatePhone_Negative()[pri:1, instance:userOnboarding.updatePhoneNumber@6a4f1a55]" started-at="2022-06-29T20:51:12 IST" name="updatePhone_Negative" finished-at="2022-06-29T20:51:13 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePhone_Negative -->
+      </class> <!-- userOnboarding.updatePhoneNumber -->
+      <class name="userOnboarding.resendEmailVerification">
+        <test-method signature="resendEmailVer()[pri:0, instance:userOnboarding.resendEmailVerification@2584b82d]" started-at="2022-06-29T20:51:16 IST" name="resendEmailVer" finished-at="2022-06-29T20:51:17 IST" duration-ms="1110" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at userOnboarding.resendEmailVerification.resendEmailVer(resendEmailVerification.java:36)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resendEmailVer -->
+        <test-method signature="resendEmailVer_Negative()[pri:1, instance:userOnboarding.resendEmailVerification@2584b82d]" started-at="2022-06-29T20:51:17 IST" name="resendEmailVer_Negative" finished-at="2022-06-29T20:51:18 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resendEmailVer_Negative -->
+      </class> <!-- userOnboarding.resendEmailVerification -->
+      <class name="userOnboarding.verifyPhoneNum">
+        <test-method signature="verifyPhoneNum()[pri:0, instance:userOnboarding.verifyPhoneNum@6f43c82]" started-at="2022-06-29T20:50:49 IST" name="verifyPhoneNum" finished-at="2022-06-29T20:50:52 IST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneNum -->
+        <test-method signature="verifyPhoneNum_Negative()[pri:1, instance:userOnboarding.verifyPhoneNum@6f43c82]" started-at="2022-06-29T20:50:52 IST" name="verifyPhoneNum_Negative" finished-at="2022-06-29T20:50:54 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneNum_Negative -->
+      </class> <!-- userOnboarding.verifyPhoneNum -->
+      <class name="userOnboarding.updateVerify">
+        <test-method signature="updateVerify()[pri:0, instance:userOnboarding.updateVerify@1b919693]" started-at="2022-06-29T20:51:04 IST" name="updateVerify" finished-at="2022-06-29T20:51:05 IST" duration-ms="1161" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [{
+    "timestamp": "2022-06-29T15:21:04.969+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [{
+    "timestamp": "2022-06-29T15:21:04.969+0000",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "IsVerified message for this user is already updated",
+    "path": "/mobile-backend/api/user/update/is-verified"
+}] but found [true]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at userOnboarding.updateVerify.updateVerify(updateVerify.java:35)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateVerify -->
+        <test-method signature="updateVerify_Negative()[pri:1, instance:userOnboarding.updateVerify@1b919693]" started-at="2022-06-29T20:51:05 IST" name="updateVerify_Negative" finished-at="2022-06-29T20:51:06 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateVerify_Negative -->
+      </class> <!-- userOnboarding.updateVerify -->
+      <class name="userOnboarding.verifyEmail">
+        <test-method signature="generateToken()[pri:0, instance:userOnboarding.verifyEmail@1807f5a7]" started-at="2022-06-29T20:50:59 IST" name="generateToken" finished-at="2022-06-29T20:51:00 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateToken -->
+        <test-method signature="verifyEmail()[pri:0, instance:userOnboarding.verifyEmail@1807f5a7]" started-at="2022-06-29T20:51:00 IST" name="verifyEmail" finished-at="2022-06-29T20:51:02 IST" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail -->
+        <test-method signature="verifyEmail_Negative()[pri:1, instance:userOnboarding.verifyEmail@1807f5a7]" started-at="2022-06-29T20:51:02 IST" name="verifyEmail_Negative" finished-at="2022-06-29T20:51:04 IST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmail_Negative -->
+      </class> <!-- userOnboarding.verifyEmail -->
+      <class name="userOnboarding.removePhotoURL">
+        <test-method signature="removePhoto()[pri:0, instance:userOnboarding.removePhotoURL@4dc27487]" started-at="2022-06-29T20:51:08 IST" name="removePhoto" finished-at="2022-06-29T20:51:09 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePhoto -->
+        <test-method signature="removePhoto_Negative()[pri:1, instance:userOnboarding.removePhotoURL@4dc27487]" started-at="2022-06-29T20:51:09 IST" name="removePhoto_Negative" finished-at="2022-06-29T20:51:10 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePhoto_Negative -->
+      </class> <!-- userOnboarding.removePhotoURL -->
+      <class name="userOnboarding.createUser">
+        <test-method signature="createUser()[pri:0, instance:userOnboarding.createUser@5c7bfdc1]" started-at="2022-06-29T20:50:54 IST" name="createUser" finished-at="2022-06-29T20:50:58 IST" duration-ms="4433" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [400]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at userOnboarding.createUser.createUser(createUser.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="createUser_Negative()[pri:1, instance:userOnboarding.createUser@5c7bfdc1]" started-at="2022-06-29T20:50:58 IST" name="createUser_Negative" finished-at="2022-06-29T20:50:59 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_Negative -->
+      </class> <!-- userOnboarding.createUser -->
+      <class name="userOnboarding.updateEmail">
+        <test-method signature="updateEmail()[pri:0, instance:userOnboarding.updateEmail@7dfd3c81]" started-at="2022-06-29T20:51:13 IST" name="updateEmail" finished-at="2022-06-29T20:51:15 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmail -->
+        <test-method signature="updateEmail_Negative()[pri:0, instance:userOnboarding.updateEmail@7dfd3c81]" started-at="2022-06-29T20:51:15 IST" name="updateEmail_Negative" finished-at="2022-06-29T20:51:16 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmail_Negative -->
+      </class> <!-- userOnboarding.updateEmail -->
+      <class name="userOnboarding.getCurrentUser">
+        <test-method signature="getCurrentUser()[pri:0, instance:userOnboarding.getCurrentUser@7bbc8656]" started-at="2022-06-29T20:51:18 IST" name="getCurrentUser" finished-at="2022-06-29T20:51:19 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentUser -->
+        <test-method signature="getCurrentUser_Negative()[pri:1, instance:userOnboarding.getCurrentUser@7bbc8656]" started-at="2022-06-29T20:51:19 IST" name="getCurrentUser_Negative" finished-at="2022-06-29T20:51:21 IST" duration-ms="2165" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at userOnboarding.getCurrentUser.getCurrentUser_Negative(getCurrentUser.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCurrentUser_Negative -->
+      </class> <!-- userOnboarding.getCurrentUser -->
+      <class name="userOnboarding.updateUserProfile">
+        <test-method signature="updateUserPro()[pri:0, instance:userOnboarding.updateUserProfile@7fb4f2a9]" started-at="2022-06-29T20:51:06 IST" name="updateUserPro" finished-at="2022-06-29T20:51:07 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserPro -->
+        <test-method signature="updateUserPro_Negative()[pri:1, instance:userOnboarding.updateUserProfile@7fb4f2a9]" started-at="2022-06-29T20:51:07 IST" name="updateUserPro_Negative" finished-at="2022-06-29T20:51:08 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserPro_Negative -->
+      </class> <!-- userOnboarding.updateUserProfile -->
+    </test> <!-- C:/Users/E-LINE/Desktop/Fiverrr/halsaBabyAPI/src/test/java/userOnboarding -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

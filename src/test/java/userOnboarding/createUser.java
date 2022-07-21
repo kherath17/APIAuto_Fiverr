@@ -37,7 +37,7 @@ public class createUser {
         Response resp = req.body(payload).post("/api/user");
         String jsonString = resp.getBody().asPrettyString();
         String message = JsonPath.from(jsonString).get("message");
-        //System.out.println("Actual Response Time is "+resp.getTimeIn(TimeUnit.SECONDS)+" seconds");
+        //System.out.println("Actual Response Time is "+resp.getTimeIn(TimeUnit.SECONDS)+" seconds");//
         System.out.println("Actual Response Time is "+(Integer.parseInt(String.valueOf(resp.getTimeIn(TimeUnit.MILLISECONDS)))/1000) + " seconds "+(Integer.parseInt(String.valueOf(resp.getTimeIn(TimeUnit.MILLISECONDS)))%1000) + " Milliseconds ");
         System.out.println("Status code is "+resp.statusCode());
         System.out.println(resp.getBody().asPrettyString());
